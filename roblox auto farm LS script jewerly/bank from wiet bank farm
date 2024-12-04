@@ -100,7 +100,7 @@ local function executeFarmSequence()
     for _, position in ipairs(firstPositions) do
         teleportTo(position)
         if position == Vector3.new(918.5054931640625, 6.004361629486084, 2593.403076171875) then
-            wait(12)
+            wait(15)
         else
             wait(1)
         end
@@ -112,7 +112,7 @@ local function executeFarmSequence()
     for _, position in ipairs(firstPositions) do
         teleportTo(position)
         if position == Vector3.new(918.5054931640625, 6.004361629486084, 2593.403076171875) then
-            wait(12)
+            wait(15)
         else
             wait(1)
         end
